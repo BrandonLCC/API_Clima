@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!-- Formulario -->
+    <form id="clima-form" class="mx-auto m-5 ms-5">
+        <H6>Busca el clima</H6>
+        <label for="">Ingrese el pais</label>
+        <input id="inputPais" placeholder="Buscar un país" type="text">
+        <label for="">Ingrese la ciudad</label>
+        <input id="inputCiudad" placeholder="Ingrese la ciudad" type="text">
+        <button type="submit" class="btn btn-primary" >Buscar Clima</button>
+    <div>
+        <div id="clima-datos-1"></div>
+        <div id="clima-datos-2"></div>
+        <div id="clima-datos-3"></div>
+
+        <div id="clima-datos-4"></div>
+        <div id="clima-datos-5"></div>
+    
+    </div>
+    </form>
+
+    <!-- Conexión con JavaScript -->
+    <script src="Solicitud.js"></script>
+
+</body>
+</html>
